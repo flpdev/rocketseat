@@ -1,0 +1,24 @@
+
+npm init -y (cria arquivo package.json armazena dependências)
+npm install express (micro framework para lidar com rotas e views)
+(depreciado) node server.js (server.js nome arquivo inicial serve para rodar o servidor node)
+
+INSTALAÇÃO NODEMON (elimina necessidade de executar o servidor para toda alteração realizada no fonte)
+npm install -D nodemon (-D dependencia de desenvolvimento apenas)
+criar um novo scripts no arquivo package.json "dev":"nodemon server.js (server.js nome do arquivo raiz)
+npm run dev (para ativar o servidor node)
+
+DOCKER PARA INSTALAÇÃO DO MONGODB
+docker pull mongo (baixa maquina virtual mongo, somente rodou com power shell como administrador)
+docker run --name mongodb -p 27017:27017 (-p serve para redirecionamento de porta para a porta da VM -d define a imagem)
+http://localhost:27017/ no browser
+[IDE] robo3t ide para visualizar dados do banco mongodb
+docker ps -a (lista todas as máquinas inclusive as que estão desligadas)
+docker start mongodb (inicia o banco de dados que ja existe e que esta offline)
+
+CONEXÃO COM O BANCO DE dados
+npm install mongoose - (ORM banco não relacionais lógica de operações de banco de dados diretamente em js)
+
+MODELS
+
+Scheema (campos e tipo de valores)
