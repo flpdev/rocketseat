@@ -12,5 +12,12 @@ const ProductSchema = new mongoose.Schema({
     url : {
         type: String,
         required: true,
+    }, 
+    createdAt: {
+        tye: Date,
+        default: Date.now
     }
-})
+});
+
+mongoose.model('Product', ProductSchema);
+// Diz para a aplicação que existe um model com nome Product com as características acima definidas.

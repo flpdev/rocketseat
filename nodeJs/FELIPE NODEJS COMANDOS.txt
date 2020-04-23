@@ -19,6 +19,7 @@ docker start mongodb (inicia o banco de dados que ja existe e que esta offline)
 CONEXÃO COM O BANCO DE dados
 npm install mongoose - (ORM banco não relacionais lógica de operações de banco de dados diretamente em js)
 
-MODELS
 
+MODELS
 Scheema (campos e tipo de valores)
+conexão com mongoose no arquivo principal
