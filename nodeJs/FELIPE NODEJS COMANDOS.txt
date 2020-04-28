@@ -14,7 +14,7 @@ docker run --name mongodb -p 27017:27017 (-p serve para redirecionamento de port
 http://localhost:27017/ no browser
 [IDE] robo3t ide para visualizar dados do banco mongodb
 docker ps -a (lista todas as máquinas inclusive as que estão desligadas)
-docker start mongodb (inicia o banco de dados que ja existe e que esta offline)
+docker START mongodb (inicia o banco de dados que ja existe e que esta offline)
 
 CONEXÃO COM O BANCO DE dados
 npm install mongoose - (ORM banco não relacionais lógica de operações de banco de dados diretamente em js)
@@ -22,4 +22,12 @@ npm install mongoose - (ORM banco não relacionais lógica de operações de ban
 
 MODELS
 Scheema (campos e tipo de valores)
-conexão com mongoose no arquivo principal
+conexão com mongoose no arquivo principal 1> Include mongoose 2> mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true, useUnifiedTopology: true });
+require-dir (nmp install require-dir) - Biblioteca faz o papel de require em todos os arquivos do diretorio
+
+//CRUD
+app.use(express.json()); - No arquivo server.js permite que se possa enviar informações no formato json para a aplicação
+{new:true} - No controller faz com que seja retornado registro após a atualização do mesmo
+retur res.send() - Retorna mensagem de sucesso sem nenhum conteúdo
+
+npm install mongoose-paginate plugin para paginação

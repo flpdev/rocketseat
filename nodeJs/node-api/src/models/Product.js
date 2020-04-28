@@ -14,10 +14,11 @@ const ProductSchema = new mongoose.Schema({
         required: true,
     }, 
     createdAt: {
-        tye: Date,
+        type: Date,
         default: Date.now
     }
 });
 
 mongoose.model('Product', ProductSchema);
 // Diz para a aplicação que existe um model com nome Product com as características acima definidas.
+
