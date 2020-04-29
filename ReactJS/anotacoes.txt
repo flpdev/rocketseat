@@ -1,6 +1,10 @@
 npm install -g create-react-app - pacote com as versões mais novas do JS (parte de transpilação para navegadores ja configurada)
 
+npm START - inicia o projeto
+
 const nomevariavel = () => (); - stateless component evita verbosidade trabalho com classes
+
+
 
 -- cada component é criado como uma pasta e um arquivo index para facilitar a criação de arquivos de estilos individuais por componemte
 -- interessante realizar a criação de um arquivo de estilos na raiz pasta src
