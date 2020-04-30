@@ -12,3 +12,5 @@ para resetar o css
 
 yarn add axios - possibilita acessar informações endereço externo
 -- ciclo de vida dos componentes
+
+yarn add react-router-dom - Biblioteca que permite efetuar a navegação
