@@ -31,3 +31,7 @@ app.use(express.json()); - No arquivo server.js permite que se possa enviar info
 retur res.send() - Retorna mensagem de sucesso sem nenhum conteúdo
 
 npm install mongoose-paginate plugin para paginação
+
+criando servidor mysql
+
+docker run --name nomebanco -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=senhabanco -d mysql:versao_do_banco
