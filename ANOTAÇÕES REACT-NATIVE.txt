@@ -1,0 +1,21 @@
+react-native init "nome do projeto" inicia o projeto com estrutura react native
+npm install -g react-native-cli - instala o CLI de modo global evitando alguns erros
+CTRL+M no emulador para ativar o live reload
+
+organizar estrutura com pasta src e mudar o apontamento no arquivo index.js na raiz do projeto
+
+npm install --save react-native-gesture-handler - pacote para correção de bug navigation
+
+npm install --save @react-native-community/masked-view
+npm install @react-navigation/stack - funcionalidade de navegação foi alterada para este pacote
+
+
+-- npm i react-navigation-stack
+-- npm i react-native-safe-area-context
+-- npm i react-native-screens
+
+Arrow function nunca cria um novo escopo de função, sempre herda o escopo acima dele.
+
+DESESTRUTURAÇÃO - MUITO IMPORTANTE
+
+.MAP ITERAÇÃO (SEMELHANTE AO FOREACH)
